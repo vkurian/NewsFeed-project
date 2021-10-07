@@ -13,6 +13,7 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
 - AWS
 - Putty
 ## Anthony Chavez- API and Database (REST API and Data Store)
+- Restful
 - Flask (python)
 - SQLite
 - Visual Studio Code (Windows 10)
