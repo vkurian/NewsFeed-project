@@ -13,7 +13,7 @@
 		<button type= "button" class="switch-botton" onclick = "login()">Log In</botton>
 		<button type= "button" class="switch-botton" onclick = "register()">Register</botton>
 		</div>
-		<form id = "login" class = "input-text" method="POST" action="login.php">
+		<form id = "login" class = "input-text" method="POST" action="login.php"> //given class name so I am able to change each individual feature using CSS code 
 			<input type = "text" class = "inputting-text" placeholder = "User ID" name="userUid" required>
 			<input type = "password" class = "inputting-text" placeholder = "Enter Password" name="userPassword" required>
 			<input type = "checkbox" class = "check-box"><span>Remember Password</span>
