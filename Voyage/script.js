@@ -2,6 +2,7 @@ var x = document.getElementById("login");
 var y = document.getElementById("register");
 var z = document.getElementById("color-botton");
 
+//This function allows me to switch back and fourth from login to signup
 function register(){
     x.style.left="-400px";
     y.style.left="50px";
