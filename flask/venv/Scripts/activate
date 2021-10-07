@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\chave\Desktop\CS490_Repo\NewsFeed-project\flask\venv"
+VIRTUAL_ENV="C:\Users\chave\Desktop\CS490_Repo\flask_tutorial\flask\examples\tutorial\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

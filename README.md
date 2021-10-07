@@ -1,4 +1,4 @@
-# NewsFeed-project
+# NewsFeed-project by Binary Bosses
 
 This is a simple newsfeed application.
 Data provided by [https://newsapi.org/](https://newsapi.org/)
