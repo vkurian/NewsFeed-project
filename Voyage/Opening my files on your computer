@@ -1,0 +1,12 @@
+Hello welcome to the frontend, I am going to walk you through opening up my files based on your operating system. 
+You must have install XAMPP installed on your computer , if not this is the link https://www.apachefriends.org/download.html 
+If you are on a MAC after the installation go to your launchpad and open up manager-osx application 
+You will see three options at the top, "WELCOME","MANAGE SERVERS", "SERVER EVENTS".click on "MANAGE SERVERS" 
+there you will see "MYSQL DATABASE" , "PROFTPD" AND "APACHE WEB SERVER", you must start MYSQL DATABASE and APACHE WEB SERVER
+Once you have them running go back to WELCOME tab and click on "GO TO APPLICATION" it will send you to your browser.
+
+By this step you should already XAMP, to run the webpage "Vouyage" you will need to go to your applications folder, then look
+for the XAMP folder, and then click on the htdocs folder, copy all the voyage files into that directory.
+
+Open up your browser and type localhost/voyage.php and it will open the "Voyage News" web page. 
+
