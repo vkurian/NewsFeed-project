@@ -9,8 +9,7 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
 ## Anthony Chavez- API and Database (REST API and Data Store)
 - Flask (python)
 - SQLite
-- Visual Studio Code (Windows)
-- 
+- Visual Studio Code (Windows 10)
 ## Vaisakh Kurian - Data Pipeline
 
 
