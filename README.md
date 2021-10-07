@@ -5,12 +5,18 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
    
 
 ## Angela Sanchez - Front End
+- HTML
+- CSS
+- Javascript
 ## Harsha Dommaraju - Front End
+- Apache2
+- AWS
 ## Anthony Chavez- API and Database (REST API and Data Store)
 - Flask (python)
 - SQLite
 - Visual Studio Code (Windows 10)
 ## Vaisakh Kurian - Data Pipeline
+- Flask (python)
 
 
 
