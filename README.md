@@ -11,6 +11,7 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
 ## Harsha Dommaraju - Front End
 - Apache2
 - AWS
+- Putty
 ## Anthony Chavez- API and Database (REST API and Data Store)
 - Flask (python)
 - SQLite
