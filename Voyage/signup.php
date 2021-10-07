@@ -12,8 +12,8 @@
 		die('Connection Failed: '.$conn->connect_error);
 	}
 	else{
-		if(pwdMatch($pwd,$pwdRepeat)!==false){
-			echo "<h1> password do not match or not strong<h1>";
+		if(pwdMatch($pwd,$pwdRepeat)!==false){ //checking that both passwords match using our own function 
+			echo "<h1> password do not match or not strong<h1>"; //if any of these functions is TRUE that means USER isnt able to SIGN UP
             exit();
 		}
 		$stmt = $conn->prepare("INSERT INTO users(userName, userUid, userEmail, userPassword) values(?,?,?,?)");
