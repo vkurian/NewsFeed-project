@@ -1,4 +1,4 @@
-html>
+<html>
 <head>
 <title>The Voyage News</title>
 <link rel = "stylesheet" href="style.css">
