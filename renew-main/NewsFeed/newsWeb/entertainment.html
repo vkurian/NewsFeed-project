@@ -1,0 +1,37 @@
+{% extends 'newsapp/base.html' %}
+{% load static %}
+
+<!-- Head -->
+{% block head %}
+<title>NewsApp - Entertainment</title>
+{% endblock %}
+
+<!-- Body -->
+{% block body %}
+  <body>
+    <div class="row container">
+      {% for new, des, i, url in mylist %}
+        <div class="col s12 m12 l6">
+          <div class="card card-panel hoverable">
+            <div class="card-image">
+              <img src="{{ i }}">
+            </div>
+            <div class="card-content">
+              <span class="card-title">{{ new }}
+                {{ value|linebreaks }}
+              </span>
+            </div>
+            <div class="divider"></div>
+            <div class="card-content">
+              <p>{{ des }}
+                {{ value|linebreaks }}</p>
+            </div>
+            <div class="card-action">
+              <a href="{{ url }}" target="_blank">Read more</a>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+    </div>
+  </body>
+{% endblock body %}
