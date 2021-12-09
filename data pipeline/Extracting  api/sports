@@ -1,0 +1,18 @@
+//Paste the code in juypter notebook 
+//extratic all the sports news from newsapi
+
+
+
+from newsapi import NewsApiClient
+import requests
+import datetime as dt
+import pandas as pd
+import json
+key="" //get the api from newsapi.org
+newsapi=NewsApiClient(key)
+api_endpoint="https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey="+ key
+data=requests.get(api_endpoint).json()
+articles=data['articles']
+df=pd.DataFrame(articles)
+df
+new=df.to_csv("sports.csv")
