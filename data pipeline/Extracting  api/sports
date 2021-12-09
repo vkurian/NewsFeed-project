@@ -15,4 +15,6 @@ data=requests.get(api_endpoint).json()
 articles=data['articles']
 df=pd.DataFrame(articles)
 df
+//transforming into excell sheet
 new=df.to_csv("sports.csv")
+excell sheet is imported to xampp database
