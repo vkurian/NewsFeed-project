@@ -1,0 +1,23 @@
+from sqlalchemy import create_engine
+my_conn = create_engine("mysql+mysqldb://root:""@localhost/test")
+import pymysql
+import numpy
+from newsapi import NewsApiClient
+import requests
+import datetime as dt
+import pandas as pd
+import json
+import schedule
+import time
+def show():
+    key="23b86c558a554eaca571a55802e63d6a" 
+    newsapi=NewsApiClient(key)
+    api_endpoint="https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey="+ key
+    data=requests.get(api_endpoint).json()
+    articles=data['articles']
+    df=pd.DataFrame(articles)
+    df.to_sql(con=my_conn,name='general',if_exists='replace',index=False)
+schedule.every(1).hour.do(show)
+while 1:
+    schedule.run_pending()
+    time.sleep(1)
