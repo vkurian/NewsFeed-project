@@ -19,7 +19,8 @@
 		$stmt = $conn->prepare("INSERT INTO profiles(userName, userUid, userEmail, userPassword) values(?,?,?,?)");
 		$stmt -> bind_param("ssss",$name, $userName, $email, $pwd);
 		$stmt -> execute();
-		header("location: ../newsWeb/newsearch/preference.html");
+		echo "Account created successfully";
+		header("location: voyage.php");
 		$stmt -> close();
 		$conn -> close();
 	}
