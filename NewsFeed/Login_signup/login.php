@@ -55,13 +55,13 @@
 				$conn -> close();
 	
 			}
-		
+		}
 		
 		else{
 			header("location: ../notMatching/notMatch.html");
 		}
 	}
-	}
+	
 	
 ?>
 </html>
