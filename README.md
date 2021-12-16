@@ -7,6 +7,7 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
 ## Angela Sanchez - Front End
 - HTML
 - CSS
+- PHP
 - Javascript
 ## Harsha Dommaraju - Front End
 - Apache2
