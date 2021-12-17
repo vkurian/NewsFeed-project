@@ -27,6 +27,7 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
 - Xampp
 - PHP myadmin
 - mysql 
+- Jupyter Notebook / python
 - Notepad++ to Edit
 
 
