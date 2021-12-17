@@ -9,6 +9,10 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
 - CSS
 - PHP
 - Javascript
+- Xampp
+- PHP myadmin
+-Visual Studio Code (Windows 10)
+
 ## Harsha Dommaraju - Front End
 - Apache2
 - AWS
