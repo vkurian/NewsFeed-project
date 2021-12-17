@@ -19,7 +19,11 @@ Data provided by [https://newsapi.org/](https://newsapi.org/)
 - SQLite
 - Visual Studio Code (Windows 10)
 ## Vaisakh Kurian - Data Pipeline
-- Flask (python)
+- PHP 
+- Xampp
+- PHP myadmin
+- mysql 
+- Notepad++ to Edit
 
 
 
